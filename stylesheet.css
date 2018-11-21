@@ -1,0 +1,181 @@
+   /*CSS Stylesheet*/
+
+
+   body {
+       margin: 0;
+       /*overflow: hidden;*/
+       font-family: 'Slabo 27px', serif;
+       color: #2B2D42;
+       text-align: center;
+   }
+
+   img {
+       max-width: 100%;
+   }
+
+   #wrapper {
+       /*      max-width: 1180px;*/
+       margin: 0 auto;
+       overflow-x: hidden;
+   }
+
+   #counter {
+       font-size: 200px;
+       color: #CC1423;
+   }
+
+   #relative {
+       position: relative;
+   }
+
+   button {
+       position: absolute;
+       right: 20px;
+       bottom: 20px;
+   }
+
+   section {
+       min-height: 100vh;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       position: relative;
+    overflow: hidden;
+    padding: 0;
+   }
+/*
+.overlay {
+    background: #F64831;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: all .3s;
+    color: white;
+    text-align: left;
+}
+*/
+   .bigtitle {
+       font-size: 75;
+   }
+
+   h1 {
+       font-size: 50px;
+   }
+
+   #one {
+       background: #A3D5FF;
+   }
+
+#two {background: #2B2D42;
+color: white;}
+#two h2{color: lightgrey;}
+   #three {
+       background-image: url(SVG/people2.svg);
+       background-repeat: repeat;
+       background-size: 50px;
+   }
+
+.red {color: #CC1423;}
+
+#lightblue{color: #A3D5FF; }
+
+   #four {
+       background: white;
+   }
+
+   .new i {
+       color: #CC1423;
+       animation: colorChange 4s linear;
+       animation-iteration-count: 1;
+   }
+
+   @keyframes colorChange {
+       0% {
+           transform: translateX(0);
+           color: lightgray;
+       }
+
+       30% {
+           color: lightgray;
+       }
+
+       100% {
+           transform: translateX(0);
+           color: #CC1423;
+       }
+   }
+
+   .gray i {
+       color: lightgray;
+   }
+
+   #four i {
+       font-size: 175px;
+
+   }
+
+   .smallfour {
+       font-size: 40px;
+       color: white;
+   }
+
+   #five {}
+
+   #circleSVG {
+       width: 400px;
+       height: 400px;
+       margin: 0 auto;
+   }
+
+   circle {
+       fill: #A3D5FF;
+       stroke: #2297E5;
+       stroke-width: 12;
+   }
+
+#people {width: 900px;}
+
+#six {background:#D02937;
+color: white;}
+
+#seven {background: #2B2D42;
+color: white;
+}
+.flexcolumn img {width: 200px;
+height: 200px;
+margin: 0 auto;
+border-radius: 50%;}
+
+.flexrow{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+flex-wrap:wrap;
+}
+.flexcolumn{display: flex;
+flex-direction: column;
+align-content:  center;
+text-align: center;
+margin-left: 20px;
+margin-right: 20px;
+max-width: 200px;}
+
+.overlay {
+    background: #F64831;
+    height: 200px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 200px;
+    opacity: 0;
+    transition: all .3s;
+    color: white;
+    text-align: left;
+
+}
+
